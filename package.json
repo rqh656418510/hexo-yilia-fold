@@ -1,0 +1,25 @@
+{
+  "name": "hexo-yilia-fold",
+  "version": "0.0.1",
+  "description": "fold plugin for hexo theme yilia",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/hexo-yilia-fold.git"
+  },
+  "keywords": [
+    "fold"
+  ],
+  "author": "rqh656418510",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rqh656418510/hexo-yilia-fold/issues"
+  },
+  "homepage": "https://github.com/rqh656418510/hexo-yilia-fold#readme"
+}
