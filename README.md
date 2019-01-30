@@ -50,12 +50,14 @@ $blog-root/themes/themes/hexo-theme-yilia/source/main.0cf68a.css, 这里除了�
 
 #### 4. MarkDown 使用语法，自定义标签内不支持 ```代码段
 
+```
 {% fold 点击显/隐内容 java %}
 public static void main(String[] args)
 {
     System.out.println("hello world!");
 }
 {% endfold %}
+```
 
 #### 5. 重新构建
 
