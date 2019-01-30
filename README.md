@@ -18,7 +18,10 @@ $ vim $blog-root/package.json
 #### 2. Yilia 主题添加 JS 代码
 $blog-root/themes/hexo-theme-yilia/layout/_partial/after-footer.ejs
 ``` javascript
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+<link href="https://cdn.bootcss.com/highlight.js/9.13.1/styles/monokai-sublime.min.css" rel="stylesheet">
+<script src="https://cdn.bootcss.com/highlight.js/9.13.1/highlight.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
 <script>
   $(document).ready(function(){
       $(document).on('click', '.fold_hider', function(){
@@ -48,10 +51,11 @@ $blog-root/themes/themes/hexo-theme-yilia/source/main.0cf68a.css, 这里除了�
 #### 4. MarkDown 使用语法
 
 ```
-{% fold 点击显/隐内容 %}
-
-something you want to fold, include code block.
-
+{% fold 点击显/隐内容 java %}
+public static void main(String[] args)
+{
+    System.out.println("hello world!");
+}
 {% endfold %}
 ```
 
