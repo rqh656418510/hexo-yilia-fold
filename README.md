@@ -45,7 +45,7 @@ $blog-root/themes/themes/hexo-theme-yilia/source/main.0cf68a.css, 这里除了�
 }
 ```
 
-#### 4. MarkDown 使用语法
+#### 4. MarkDown 使用语法，自定义标签内支持 ```代码段
 
 ```
 {% fold 点击显/隐内容 %}
